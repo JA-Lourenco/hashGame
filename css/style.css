@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    transition: all 0.4s ease;
+}
+
+body {
+    background-color: #E8E9EB;
+}
+
+header, footer {
+    width: 30%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #313638;
+    font-weight: 800;
+    font-size: 34px;
+}
+
+.stage {
+    width: 333px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mark-area {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    font-size: 35px;
+    border: 1px solid #313638;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mark-area:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+    box-shadow: 2px 2px 5px #313638;
+}
+
+.o:after {
+    content: "\1F431";
+}
+
+.x:after {
+    content: "\1F436";
+}
+
+footer {
+    width: 320px;
+    margin-top: 100px;
+}
+
+button {
+    cursor: pointer;
+    width: 100%;
+    padding: 8px;
+    font-size: 22px;
+    font-weight: 800;
+    color: #7F96FF;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+button:hover {
+    transform: scale(0.9);
+    color: #FE5F55;
+    border-radius: 50px;
+}
